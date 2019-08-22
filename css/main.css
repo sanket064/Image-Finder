@@ -1,0 +1,76 @@
+.page { 
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    max-width: 100%;
+}
+.title { 
+    text-align:center;
+    background-color:#d7b868;
+    padding:20px;
+}
+.container { 
+    display: block; 
+}
+.error {
+    background-color: red;
+    padding: 10px;
+}
+.subKeyDiv {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    transition: all 0.5s ease;
+}
+input:focus {
+    border:1px solid black;
+}
+button {
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    padding: 20px 40px;
+    transition: all 0.4s ease-in;
+    float:right;  
+    margin-top:-20px; 
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    font-size:14px;
+}
+button:hover {
+    background-color:brown;
+}
+.error {
+    background:red;
+    padding: 20px;
+    text-align:center;
+    color:white;
+}
+.jsonOutput { 
+  
+   float:left;
+   width:50%;
+}
+#responseTextArea {
+    height: 200px;
+}
+ul { 
+    padding: 6px;
+    list-style-type:circle; 
+    display:inline-block;
+    margin:10px;
+}
+.imageDiv { 
+  
+    width: 50%;
+    float: left;
+}
+#sourceImage {
+    width:100%;
+}
+
+
