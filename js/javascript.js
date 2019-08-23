@@ -158,7 +158,7 @@ const AnalyzeImage = (sourceImageUrl, responseTextArea, captionSpan) => {
         // Show the error message.
         alert(`Sorry there was an error processing your request`);
         
-        $("#responseTextArea").append(`<div><h3 class='error'>Check Your Entered Url Again</h3></div>`);
+        $("#responseTextArea").html(`<div><h3 class='error'>Check Your Entered Url Again</h3></div>`);
         
     });
 }
